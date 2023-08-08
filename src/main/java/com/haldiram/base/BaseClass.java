@@ -120,6 +120,7 @@ public class BaseClass {
 	}
 	
 	public void teardown() {
+		log.info("close the browser");
 		driver.close();
 	}
 
